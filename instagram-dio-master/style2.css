@@ -116,10 +116,16 @@ body{
     }
 }
 @media(max-width:650px){
+    body{
+        background-color: #ffffff;
+    }
     .instagram-wrapper{
         display: none;
     }
     .instagram-continue{
         width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
     }
 }
